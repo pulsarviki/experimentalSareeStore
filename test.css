@@ -1,0 +1,5 @@
+a            { font-family: Arial; font-size: 10pt; text-decoration:none }
+a:link       { color: #808080; font-family: Arial; font-size: 10pt; text-decoration:none }
+a:visited    { color: #800000; font-family: Arial; font-size: 10pt; text-decoration:none }
+a:active     { color: #FF9900; font-size: 10pt; font-family: Arial; text-decoration:none }
+a:hover      { color: #0000FF; font-size: 10.1pt; font-family: Arial; text-decoration:none }

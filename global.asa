@@ -1,0 +1,14 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+Sub Session_OnStart
+  dim sItemNums(0), nItemQtys(0)
+  sItemNums(0) = ""
+  nItemQtys(0) = 0
+
+  session("CartItemNumArray") = sItemNums
+  session("CartItemQtyArray") = nItemQtys
+  session("DBLogin") = "DSN=ASPStore"
+  session("shipbasecharge") = 4.50
+  session("shipitemcharge") = 1.25
+  
+End Sub
+</SCRIPT>

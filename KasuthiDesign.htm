@@ -1,0 +1,75 @@
+<!-- #include file="connect.inc" -->
+<html>
+	<head>
+		<title>Additional Design</title>
+		<meta http-equiv="Content-Language" content="en-us">
+		<LINK media="screen" href="test.css" type="text/css" rel="stylesheet">
+			<script language="javascript">
+	function StoreClick(){	
+		
+		var Form=document.frmColor;
+		var i,e;
+		var strValue="0";
+		var strValue1="0";
+		var intValue
+		for(i=0;i<Form.length;i++){
+			e=Form.elements(i);			
+			if(e.name=="rdo") if(e.checked) { strValue=e.value;strValue1=i+1;
+			}
+	   }  		
+    
+     
+       window.opener.document.frmSareeDetails.txtAmount.value=eval(strValue) + eval(window.opener.document.frmSareeDetails.txtAmount.value)-eval(window.opener.document.frmSareeDetails.txtKD.value);
+       window.opener.document.frmSareeDetails.txtKD.value=strValue;
+       window.opener.document.frmSareeDetails.txtKDN.value=strValue1;
+       window.opener.document.frmSareeDetails.hdnAmount.value = window.opener.document.frmSareeDetails.txtAmount.value ;
+   	   self.close();
+	}
+			</script>
+	</head>
+	<body bgcolor="#ffd291" topmargin="0" leftmargin="0">
+		<form name="frmColor">
+			<table border="0" cellpadding="0" cellspacing="0" style="BORDER-COLLAPSE: collapse" bordercolor="#111111" width="334" id="AutoNumberdo" height="184">
+				<tr>
+					<td width="585" height="20" align="left" valign="top">
+						<p align="center">
+							<b><font face="Tahoma" color="#cc0000"><font size="1">Additional Charges for </font><font size="2">
+										KASUTHI DESIGN </font><font size="1">is US
+                            $55&nbsp;<br>
+										Kasuthi Design given below may not be the design's in your saree selected. It 
+										will vary.</font><font size="2">&nbsp;</font>&nbsp;&nbsp;&nbsp; </font></b>
+							<font face="Arial" size="2">
+								<br>
+								Check &amp;&nbsp;click <b>OK..<br>
+								</b></font>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td width="585" height="101" align="middle" valign="top">
+						<table border="2" width="100%" bordercolorlight="#ffffff">
+							<tr>
+								<td width="50%"><img border="0" src="SareeImages/P53.JPG" width="150" height="64"></td>
+								<td width="50%"><img border="0" src="SareeImages/P54.JPG" width="150" height="64"></td>
+							</tr>
+							<tr>
+								<td width="50%"><img border="0" src="SareeImages/P56.JPG" width="150" height="64"></td>
+								<td width="50%"><img border="0" src="SareeImages/P57.JPG" width="150" height="64"></td>
+							</tr>
+							<tr>
+								<td width="50%"><img border="0" src="SareeImages/P58.JPG" width="150" height="64"></td>
+								<td width="50%"><img border="0" src="SareeImages/P59.JPG" width="150" height="64"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td height="35" align="middle" valign="top" width="585">
+						<input type="checkbox" value="55.00" name="rdo"> <input type="button" onclick="StoreClick()" value="    Ok    ">
+						<input type="button" onclick="window.close();" value=" Close ">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

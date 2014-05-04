@@ -1,0 +1,10 @@
+*Before you add the selected saree to shopping cart,Click the "COLOR PALLET" button to choose the saree colour,Click the saree color from the color pallet window,then press the "OK" button.
+*If intrested in Kasuthi Design (i.e,Additional design will be charged extra),Click the "YES" button in the Kasuthi design field,opens up the window with the different kasuthi designes,click the design you want & click "OK" button.If ur not intrested then click the "CLOSE" button in the kasuthi design window without selecting any of the design.
+*Then add the selected Saree to the shopping cart.
+*"CONTINUE SHOPPING" Button:To bye another saree(i.e add to cart another saree).Then proceed with the same steps given above.
+*"UPDATE ORDER" BUTTON:To buy more then one saree go to the quantity field & change the same to the desired quantity & then press the Update Order button.
+*"DELETE" BUTTON:To delete the item from the shopping cart tick the item desired to be deleted & then press the Delete button.
+*"CONTINUE" BUTTON:click this button only after your complete shopping(ie., after adding that you have selected to the shopping cart) than put your information and credit card information.
+*click the submit order button to complete your shopping
+*an order number is generated, remember your order number which will be helpful for you to know your order status at any given point of time
+*"VIEW ORDER STATUS":click the order status button than put in your given order number and click "GO" this shows the status of your order.

@@ -1,0 +1,247 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>KSIC-Karnataka Silk Industries Corportation</title>
+<link rel="stylesheet" type="text/css" href="test.css"/>
+</head>
+<body topmargin="0" leftmargin="0" bgcolor="#FFD18C">
+<script>
+if (!document.layers)
+document.write('<div id="divStayTopLeft" style="position:absolute">')
+</script>
+<script language="JavaScript" src="scripts/menu.js"></script>
+<script language="JavaScript" src="scripts/floatmenu.js"></script>
+<table border="0" cellspacing="1" align="center" style="border-collapse: collapse" bordercolor="#111111" width="780" id="AutoNumber1" bgcolor="#FFFFE6">
+<tr>
+    <td width="39%" style="border-bottom: 1px solid #FF9933" valign="baseline" height="66">
+        <p align="right">
+        <img border="0" src="images/ksiclogo.gif" align="left" width="327" height="65"></td>
+    <td width="30%" border="0" src="images/test.swf" style="border-bottom: 1px solid #FF9933" height="66">
+<script language="JavaScript1.2">
+var sliderwidth="445px"
+var sliderheight="64px"
+var slidespeed=2
+slidebgcolor="#FFFFCE"
+
+var leftrightslide=new Array()
+var finalslide=''
+leftrightslide[0]='<img src="IndexImg/P46.jpg">'
+leftrightslide[1]='<img src="IndexImg/P19.jpg">'
+leftrightslide[2]='<img src="IndexImg/P18.jpg">'
+leftrightslide[3]='<img src="IndexImg/P2.jpg">'
+leftrightslide[4]='<img src="IndexImg/P6.jpg">'
+leftrightslide[5]='<img src="IndexImg/P21.jpg">'
+leftrightslide[6]='<img src="IndexImg/P32.jpg">'
+leftrightslide[7]='<img src="IndexImg/P51.jpg">'
+leftrightslide[8]='<img src="IndexImg/P43.jpg">'
+leftrightslide[9]='<img src="IndexImg/P24.jpg">'
+leftrightslide[10]='<img src="IndexImg/P22.jpg">'
+leftrightslide[11]='<img src="IndexImg/P49.jpg">'
+leftrightslide[12]='<img src="IndexImg/P33.jpg">'
+leftrightslide[13]='<img src="IndexImg/P52.jpg">'
+leftrightslide[14]='<img src="IndexImg/P12.jpg">'
+leftrightslide[15]='<img src="IndexImg/P45.jpg">'
+leftrightslide[16]='<img src="IndexImg/P38.jpg">'
+leftrightslide[17]='<img src="IndexImg/P40.jpg">'
+leftrightslide[18]='<img src="IndexImg/P26.jpg">'
+leftrightslide[19]='<img src="IndexImg/P27.jpg">'
+
+var copyspeed=slidespeed
+leftrightslide='<nobr>'+leftrightslide.join(" ")+'</nobr>'
+var iedom=document.all||document.getElementById
+if (iedom)
+document.write('<span id="temp" style="visibility:hidden;position:absolute;top:-100px;left:-9000px">'+leftrightslide+'</span>')
+var actualwidth=''
+var cross_slide, ns_slide
+
+function fillup(){
+if (iedom){
+cross_slide=document.getElementById? document.getElementById("test2") : document.all.test2
+cross_slide2=document.getElementById? document.getElementById("test3") : document.all.test3
+cross_slide.innerHTML=cross_slide2.innerHTML=leftrightslide
+actualwidth=document.all? cross_slide.offsetWidth : document.getElementById("temp").offsetWidth
+cross_slide2.style.left=actualwidth+20+"px"
+}
+else if (document.layers){
+ns_slide=document.ns_slidemenu.document.ns_slidemenu2
+ns_slide2=document.ns_slidemenu.document.ns_slidemenu3
+ns_slide.document.write(leftrightslide)
+ns_slide.document.close()
+actualwidth=ns_slide.document.width
+ns_slide2.left=actualwidth+20
+ns_slide2.document.write(leftrightslide)
+ns_slide2.document.close()
+}
+lefttime=setInterval("slideleft()",30)
+}
+window.onload=fillup
+
+function slideleft(){
+if (iedom){
+if (parseInt(cross_slide.style.left)>(actualwidth*(-1)+8))
+cross_slide.style.left=parseInt(cross_slide.style.left)-copyspeed+"px"
+else
+cross_slide.style.left=parseInt(cross_slide2.style.left)+actualwidth+30+"px"
+
+if (parseInt(cross_slide2.style.left)>(actualwidth*(-1)+8))
+cross_slide2.style.left=parseInt(cross_slide2.style.left)-copyspeed+"px"
+else
+cross_slide2.style.left=parseInt(cross_slide.style.left)+actualwidth+30+"px"
+
+}
+else if (document.layers){
+if (ns_slide.left>(actualwidth*(-1)+8))
+ns_slide.left-=copyspeed
+else
+ns_slide.left=ns_slide2.left+actualwidth+30
+
+if (ns_slide2.left>(actualwidth*(-1)+8))
+ns_slide2.left-=copyspeed
+else
+ns_slide2.left=ns_slide.left+actualwidth+30
+}
+}
+
+
+if (iedom||document.layers){
+with (document){
+document.write('<table border="0" cellspacing="0" cellpadding="0"><td>')
+if (iedom){
+write('<div style="position:relative;width:'+sliderwidth+';height:'+sliderheight+';overflow:hidden">')
+write('<div style="position:absolute;width:'+sliderwidth+';height:'+sliderheight+';background-color:'+slidebgcolor+'" onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed">')
+write('<div id="test2" style="position:absolute;left:0px;top:0px"></div>')
+write('<div id="test3" style="position:absolute;left:-1000px;top:0px"></div>')
+write('</div></div>')
+}
+else if (document.layers){
+write('<ilayer width='+sliderwidth+' height='+sliderheight+' name="ns_slidemenu" bgColor='+slidebgcolor+'>')
+write('<layer name="ns_slidemenu2" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed"></layer>')
+write('<layer name="ns_slidemenu3" left=0 top=0 onMouseover="copyspeed=0" onMouseout="copyspeed=slidespeed"></layer>')
+write('</ilayer>')
+}
+document.write('</td></table>')
+}
+}
+</script>
+
+	</td>
+    <td width="23%" border="0" src="images/test.swf" style="border-bottom: 1px solid #FF9933" align="right" height="66">
+	   </td>
+  </tr>
+  <tr>
+    <td width="100%" height="461" colspan="3">
+    <p align="center">
+    <marquee style="font-family: Tahoma; color: #FFFFCE; font-weight: bold; font-size: 8pt" bgcolor="#800000" behavior="alternate" height="16" scrollamount="3" width="780" align="middle">
+    Its a blend of pure Mysore silk.... Naturally splendid&nbsp; #&nbsp;Emotionally yours !</marquee>
+    <table border="0" cellspacing="1" style="border-collapse: collapse" bordercolor="#111111" width="780" id="AutoNumber2">
+      <tr>
+        <td width="197" valign="top" bordercolor="#FF9900">
+        <div align="center">
+<table border="0" width="177" height="1" cellspacing="1" style="border: 1 solid #800000" bordercolor="#FFD18C" bgcolor="#E1FFFF">
+   <tr><td height="12" width="177" style="border-bottom: 1 solid #800000" bgcolor="#FFFFE6">
+    <p align="center"><b><font face="Tahoma" color="#800000" size="1">NEWS &amp; EVENTS</font></b></p>
+    </td></tr><tr><td height="77" width="177" bgcolor="#FFFFE6">
+    <span style="background-color: #FFFFE6">
+    <marquee style="font-family: Tahoma; font-size: 8pt" scrollamount="1" scrolldelay="0" direction="up" height="72" width="181">
+    	KSIC the proud inheritor of Original "Mysore Silk" Fabrics,applies for Geographical Indications Registration for brand "MYSORE SILK".&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	---------------------------------------------KSIC is a ISO 9001-2000 certified company.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	---------------------------------------------KSIC is working towards ISO 14001 for environmental protection.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	---------------------------------------------KSIC launches new "Designer Collection" sarees in November 2004.
+    </span>
+    </marquee>
+    </td></tr>
+</table>
+        </div>
+            <table cellpadding="5" cellspacing="5" width="100%" style="border-collapse: collapse" bordercolor="#111111">
+              <tr>
+                <td width="100%" align="right">
+                <p align="center"><a href="generalsareespecification.asp"><img border="0" src="images/PurchaseBtn.gif" width="162" height="25"></a></p>
+                </td>
+              </tr>
+              <tr>
+                <td width="100%" class="navleft" align="right" style="border-right: 2px groove #FF9933; border-bottom: 2px groove #FF9933; padding-right: 15; padding-top:10">
+                <p><font face="Arial" size="2">
+                <a href="aboutus.htm">About 
+                Us</a></font></td>
+              </tr>
+              <tr>
+                <td width="100%" class="navleft" align="right" style="border-right: 2px groove #FF9933; border-bottom: 2px groove #FF9933; padding-right: 15; padding-top:10">
+                <a href="factories.htm">Factories</a></td>
+              </tr>
+              <tr>
+                <td width="100%" class="navleft" align="right" style="border-right: 2px groove #FF9933; border-bottom: 2px groove #FF9933; padding-right: 15; padding-top:10">
+                <font face="Arial" size="2"><a href="products.htm">Products</a></font></td>
+              </tr>
+              <tr>
+                <td width="100%" class="navleft" align="right" style="border-right: 2px groove #FF9933; border-bottom: 2px groove #FF9933; padding-right: 15; padding-top:10">
+                <a href="ksicshowrooms.htm">KSIC 
+                Showrooms</a></td>
+              </tr>
+				<tr>
+                <td width="100%" class="navleft" align="right" style="border-right: 2px groove #FF9933; border-bottom: 2px groove #FF9933; padding-right: 15; padding-top:10">
+                <a href="palludesigns.htm">
+                <font face="Arial" size="2">Pallu 
+                Designs</font></a></td>
+              </tr>
+			    <tr>
+                <td width="100%" class="navleft" align="right" style="border-right: 2px groove #FF9933; border-bottom: 2px groove #FF9933; padding-right: 15; padding-top:10">
+                <font face="Arial" size="2"><a href="tendercell.htm">Tender 
+                Cell</a></font></td>
+              </tr>
+			<tr>
+                <td width="100%" class="navleft" align="right" style="border-right: 2px groove #FF9933; border-bottom: 2px groove #FF9933; padding-right: 15; padding-top:10">
+                <font face="Arial" size="2"><a href="tipsilkcare.htm">Care 
+                your Silk</a></font></td>
+          </tr>
+
+			<tr>
+                <td width="100%">
+                <table border="1" width="100%" cellspacing="0" cellpadding="0" bordercolorlight="#FFFFE6" bordercolor="#FFFFCE" bordercolordark="#FFFFCE">
+                  <tr>
+                    <td width="33%">
+                      <p style="border-right: 1 solid #FF9900; border-bottom: 1 solid #FF9900" align="right"><a href="contactus.htm"><font face="Tahoma" size="1">Contact
+                      Us</font></a></td>
+                    <td width="33%">
+                      <p style="border-right: 1 solid #FF9900; border-bottom: 1 solid #FF9900" align="right"><a href="sitemap.htm"><font face="Tahoma" size="1">Site
+                      Map</font></a></td>
+                    <td width="34%">
+                      <p align="right" style="border-right: 1 solid #FF9900; border-bottom: 1 solid #FF9900"><a href="feedback.asp"><font face="Tahoma" size="1">Feed
+                      Back</font></a></td>
+                  </tr>
+                  <tr>
+                    <td width="100%" colspan="3" align="right" style="border-right: 1 solid #FF9900; border-bottom: 1 solid #FF9900">
+                      <font face="Tahoma"><a href="infoact.htm"><font size="1">Right to
+                      Information</font></a><font size="1">&nbsp;</font></font></td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+			</table>
+	</td>         
+      	<td width="564" align="center">
+		<img border="0" src="Banners/BannerIndex.gif" width="485" height="433">
+ 		</tr>
+    </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" colspan="3" height="21">
+    <table cellspacing="1" style="border-collapse: collapse; border-top: 1px solid #FF9933" width="100%" id="AutoNumber3">
+      <tr>
+        <td width="60%">
+          <p align="left"><font face="Arial" size="1">©2004 Karnataka Silk Industries Corporation.</font></p>
+        </td>
+        <td width="40%">
+        <p align="right"><font face="Arial"><font size="1">Maintained by <a href="http://www.e-syma.com">
+        E-Syma Services</a></font></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<p align="right">&nbsp;</p>
+</body>
+</html>
