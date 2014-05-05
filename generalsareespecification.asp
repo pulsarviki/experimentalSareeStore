@@ -13,7 +13,7 @@
     
 'dim con
 'set con = Server.CreateObject("ADODB.Connection")
-'con.Open "PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE=C:\Inetpub\wwwroot\KsicShop\ksictd.mdb"
+'con.Open "PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE=KSICTD.mdb"
 
 %>
 
